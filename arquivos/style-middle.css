@@ -1,0 +1,10 @@
+
+.middle-box{
+   width: 230px;
+   background:#3E215D ;
+   border-width: 4px;
+   border-style: none solid solid none;
+   position: absolute;
+   left: 10%;
+   top: 10%;}
+

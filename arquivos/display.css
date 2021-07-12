@@ -1,0 +1,22 @@
+ul{  
+   font-size: 18px;
+   font-weight: bold;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+ul:hover{background: #F08FC0;
+}
+
+ul:hover li{
+   display: block;
+}
+
+ul ul li{
+   display: none;
+   
+}
+ul ul li:hover{
+   width: 230px;
+   background-image: linear-gradient(to right, #0bff02, #75f900, #a1f300, #c2ed00, #dce600, #eec800, #faaa00,#0ca1e1,#3100ff);
+}
