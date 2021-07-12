@@ -1,0 +1,28 @@
+.comum{
+   font-family:arial;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+#top-box{
+   display: inline-block;
+}
+#info-box{
+   width: 200px;
+   position: absolute;
+   top: 10%;
+   left: 20%;
+   margin: 0;
+   padding: 0;
+   display: inline-block;
+   border-style: none none groove;
+   background: #7C83FD}
+
+#info-box:hover{
+background: #96BAFF}
+#info-box:hover li{display:block;
+}
+.info{display: none;}
+.info:hover{background: linear-gradient(to right, #0bff02, #75f900, #a1f300, #c2ed00, #dce600, #eec800, #faaa00,#0ca1e1,#3100ff);}
+
+

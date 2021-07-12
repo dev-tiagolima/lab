@@ -1,58 +1,48 @@
 .bg-site{
    margin: 0;
    padding: 0;
-   background: linear-gradient(to top, #3E215D 30%,#F08FC0)
-}
-h1{
+   background: #334257  ;}
+h1{ 
    text-align: center;
    font-family: cursive;
-   font-size: 40px;
-   font-weight: bold;
-}
-/* texto no meio */
+   font-size: 30px;
+   font-weight: bold;} 
+   /* texto i'm tiago */
+     .profile{ 
+   text-align: center; }
+   /* arruma a foto pra ficar no meio */
 
-.profile{ 
-   text-align: center; 
-}/* arruma a foto pra ficar no meio */
-
-#profile-pic{
+   #profile-pic{
    width: 200px;
    background-color: #F08FC0;
    border-radius: 100px;
    border-width: 5px;
    border-style: none solid solid none;
-   border-color: #3E215D;
+   border-color: #7C83FD}
+   /* imagem */
    
-}/* imagem */
-   #borda-bio:hover{
-   background: linear-gradient(to right, #0bff02, #75f900, #a1f300, #c2ed00, #dce600, #eec800, #faaa00,#0ca1e1,#3100ff);}
    #borda-bio{
    position: absolute;
-   right: 9em;
-   top: 0;
+   left:10%;
+   top: 2%;
    width: 330px;
    height: 30px;
    border-radius: 100px;
    border-width: 3px;
-   border-style: none solid solid none;
-}
-#cursor{
-   filter: brightness(1);
-   width: 80px;
-   position: absolute;
-   right: 10%;
-   top: 7%;
-} /* imagem do cursor */
-#mouse-in-txt{
-   position: absolute;
-   right: 10%;
-   top: 5%;
-   width: 200px;
-   height: 30px;
-   border-radius: 100px;
-   border-width: 3px;
-   border-style: none solid solid none;
-}/* texto dentro da segunda caixa */
-#mouse-in-txt:hover{
-   background: linear-gradient(to right, #0bff02, #75f900, #a1f300, #c2ed00, #dce600, #eec800, #faaa00,#0ca1e1,#3100ff);
-}
+   border-style: none none groove;
+   background: linear-gradient(to right, #0bff02, #75f900, #a1f300, #c2ed00, #dce600, #eec800, #faaa00,#0ca1e1,#3100ff);}
+      
+   #cursor{
+         filter: brightness(1);
+         width: 60px;
+         position: absolute;
+         left: 20%;
+         top: 10%;
+      } /* imagem do cursor */
+      #cursor2{
+         filter: brightness(1);
+         width: 60px;
+         position: absolute;
+         left: 20%;
+         top: 20%;
+      } 
