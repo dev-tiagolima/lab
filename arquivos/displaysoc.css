@@ -5,13 +5,13 @@
 #soc-box{
    width: 200px;
    position: absolute;
-   top: 23%;
+   top: 25%;
    left: 20%;
    margin: 0;
    padding: 0;
    display: inline-block;
    border-style: none none groove;
-   background: #7C83FD}
+   background: #262db6}
 
 #soc-box:hover{background: #96BAFF;}
 #soc-box:hover li{display:block;}

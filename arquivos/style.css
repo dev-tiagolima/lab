@@ -1,48 +1,32 @@
-.bg-site{
-   margin: 0;
-   padding: 0;
-   background: #334257  ;}
-h1{ 
-   text-align: center;
-   font-family: cursive;
-   font-size: 25px;
-   font-weight: bold;} 
-   /* texto i'm tiago */
-     .profile{ 
-   text-align: center; }
-   /* arruma a foto pra ficar no meio */
-
-   #profile-pic{
+   body{
+      background-color: #888cd1;
+   }
+   #profile-png{
    width: 200px;
-   background-color: #F08FC0;
-   border-radius: 100px;
-   border-width: 5px;
-   border-style: none solid solid none;
-   border-color: #7C83FD}
-   /* imagem */
-   
-   #borda-bio{
    position: absolute;
-   left:10%;
-   top: 2%;
-   width: 330px;
-   height: 30px;
-   border-radius: 100px;
-   border-width: 3px;
+   right: 50%;
+   top: 35px;
+   border-width: 5px;
+  }
+   /* imagem */
+   #txt-bio{
+   position: absolute;
+   right: 50%;
+   top: 0;
+   border-width: 4px;
    border-style: none none groove;
    background: linear-gradient(to right, #0bff02, #75f900, #a1f300, #c2ed00, #dce600, #eec800, #faaa00,#0ca1e1,#3100ff);}
-      
-   #cursor{
-         filter: brightness(1);
-         width: 60px;
-         position: absolute;
-         left: 20%;
-         top: 10%;
-      } /* imagem do cursor */
-      #cursor2{
-         filter: brightness(1);
-         width: 60px;
-         position: absolute;
-         left: 20%;
-         top: 23%;
-      } 
+     
+   .bottom-box{
+     
+      position: absolute;
+      top: 90%;
+      width: 100%;
+      height: 70px;
+      background: linear-gradient(to right, #0bff02, #75f900, #a1f300, #c2ed00, #dce600, #eec800, #faaa00,#0ca1e1,#3100ff);
+      text-align: center;
+   }
+   h5{
+      margin-top: 10px;
+   }
+ 
